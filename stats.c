@@ -67,7 +67,7 @@ int main(void) {
 }
 
 /*calculate the mean of an array*/
-unsigned char find_mean(unsigned char *arr, unsigned int size){
+    unsigned char find_mean(unsigned char *arr, unsigned int size){
     unsigned char avg = 0;              //Holds the Average
     unsigned static char carry[] = {0}; //Creates an array to hold carry; char type holds up to a byte, sum of elements is more than a byte
     unsigned char carr = 0;             //Holds the final 

@@ -33,10 +33,10 @@ void print_statistics(unsigned char a, unsigned char b, unsigned char c, unsigne
  * @brief <Calculates the mean of elements>
  * * <To get the mean: divide each element of the array by the total number element in array>
  *
- * Sum of the division of elements by the total number of elements in the array. To account for loses resulting due to the fact that the  
- * character array is a byte(255 in decimals) and characters do not store floating numbers we will
- * Sum of the all the carry(remainder) divided by the total number of elements in the array
- * mean is the the Sums of both
+ * We will find the sum of the division of each element by the total number of elements in the array. To account for   
+ * loses as a result of the fact that the char datatype is a byte and also characters do not store floating numbers
+ * we will find the sum of all the carry(remainders) and divide by the total number of elements in the array. 
+ * The mean is the the sums of both the carry and the average. 
  *
  * @param <unsigned char *l> <Pointer to the test array
  * @param <unsigned int i> Number of characters in the array
